@@ -167,7 +167,7 @@ AddEventHandler("RegisterUsableItem:money10", function()
 	end)
 end)
 RegisterServerEvent("RegisterUsableItem:money20")
-AddEventHandler("RegisterUsableItem:money20", function(source)
+AddEventHandler("RegisterUsableItem:money20", function()
 	local _source = source
     local ItemData = data.getItem(_source, 'money20')
     local ItemInfo = data.getItemData('money20')
