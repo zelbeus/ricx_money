@@ -118,8 +118,8 @@ AddEventHandler("ricx_transfer", function(_value)
         itemData = data.getItem(_source, "money200")
         ItemInfo = data.getItemData("money200")
     elseif value == 500 then
-        itemData = data.getItem(_source, "money400")
-        ItemInfo = data.getItemData("money400")
+        itemData = data.getItem(_source, "money500")
+        ItemInfo = data.getItemData("money500")
     elseif value == 5 then
         itemData = data.getItem(_source, "money5")
         ItemInfo = data.getItemData("money5")
